@@ -13,7 +13,7 @@ class ApplicationController < Sinatra::Base
 
   get '/registrations/signup' do
 
-    erb :signup
+    erb :'/registrations/signup'
   end
 
   post '/registrations' do
